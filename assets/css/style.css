@@ -1,0 +1,67 @@
+@import url('reset.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+
+*, p{
+    font-family: 'Open Sans', sans-serif;
+}
+.lucky-font{
+    font-family: 'Luckiest Guy', cursive;
+}
+
+
+/* -------------HEADER--------------*/
+
+header{
+    background-image: url(../images/Header\ Background.svg);
+    background-size: cover;
+    
+    background-position: center center;
+    padding: 70px 24px;
+
+}
+
+header h1{
+    color:white;    
+    font-size: 44px;
+    font-size: clamp(1.5rem,5vw,2.9rem);
+    line-height: 95%;
+    text-transform: uppercase;
+    min-width: 278px;
+    word-wrap: break-word;
+}
+
+header p{
+    max-width: 380px;
+    color: white;
+    margin: 24px 0;
+}
+
+header button{
+    padding: 16px 32px;
+    border-radius: 28px;
+    border:0;
+    font-weight: 400px;
+    font-size: 1rem;
+}
+
+.white-btn{ 
+    color: #23272A;
+    background: white;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+
+.black-btn{ 
+    color: white;
+    background: #23272A;
+
+}
+/* -------------MAIN--------------*/
+
+
+
+/* -----------NAV ----------------*/
+
