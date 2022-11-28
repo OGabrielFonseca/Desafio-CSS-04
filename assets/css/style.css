@@ -37,6 +37,8 @@ header p{
     max-width: 380px;
     color: white;
     margin: 24px 0;
+    line-height: 1.5rem;
+    font-size: 1rem;
 }
 
 
@@ -68,7 +70,7 @@ main section{
     justify-content: center;
     align-items: flex-start;
     padding: 40px 24px;
-    gap: 27px;
+    gap: 16px;
     
 }
 
@@ -93,22 +95,22 @@ main section img{
 
 main section p{
     line-height: 1.3rem;
-    font-size: clamp(1rem,4vw,1.25rem);
+    font-size: 1rem;
 }
 
 main section h2{
     font-weight: 800;
     font-size: 1.5rem;
     margin-bottom: 27px;
-    line-height: 2rem;
-    font-size: clamp(1.25rem,5vw,2.5rem);
+    line-height: 95%;
+    font-size: clamp(1.2rem,5vw,2.5rem);
     
 }
 
 #section-04 h2{
     font-weight: 800;
     font-size: 2rem;
-    font-size: clamp(1.25rem,7vw,2.5rem);
+    font-size: clamp(1.25rem,7vw,3rem);
     
 }
 
@@ -151,8 +153,55 @@ footer img{
     .white-btn{
         margin-bottom: 0;
     }
+    
+    main section p{
+        line-height: 2rem;
+    }
+    
+    main section h2{
+        line-height: 3rem;  
+    }
 
+    main section:not(#section-04){
+        padding: 40px 80px;
+        display:grid;
+        grid-template-rows: min-content;
+        align-items: center;
+        column-gap: 16px;
+    }
 
+    main section:not(#section-02){
+        grid-template-columns: minmax(min-content, 680px) minmax(min-content, 380px);
+        grid-template-areas: 'img description';
+    }
+
+    #section-02{
+        grid-template-areas: "description img";
+        grid-template-columns: minmax(min-content, 380px) minmax(min-content, 680px) ;
+    }
+
+    .section-img{
+        grid-area: img;
+    }
+
+    .section-description{
+        grid-area: description;
+    }
+
+    #section-04{
+        align-items: center;
+        text-align: center;
+    }
+
+    #section-04 div{
+        max-width: 980px;
+    }
+    #section-04 h2{
+
+        max-width: 608px;
+        margin: 0 auto 16px auto;
+
+    }
 }
 
 
