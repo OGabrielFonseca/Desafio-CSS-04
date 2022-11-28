@@ -7,4 +7,4 @@ Link Figma: [https://www.figma.com/file/KknwioExyqKD3D2eSVFrcW/Desafio-Grid---DI
 
 ![image](https://user-images.githubusercontent.com/91344667/204292844-54cb61ea-f0e9-4c2b-a561-c86a647569e4.png)
 
-Link to my page: https://ogabrielfonseca.github.io/Deafio-CSS-04/
+Link to my page: https://ogabrielfonseca.github.io/Desafio-CSS-04/
